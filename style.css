@@ -1,0 +1,25 @@
+* {
+    background-color: rgb(53, 39, 128);
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__icons i {
+    padding: 60px;
+    border-radius: 50%;
+    border: 2px red solid;
+}
+
+.section__icons i:hover {
+    color: gold;
+}
