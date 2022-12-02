@@ -9,7 +9,7 @@ body {
     background: -webkit-radial-gradient(#560e86, #0a0011);
 }
 
-.asd {
+.divContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body {
     padding: 20px;
 }
 
-.container span, .container__thegame span {
+.container span {
     font-size: 80pt;
     font-weight: bold;
     position: relative;
@@ -27,7 +27,15 @@ body {
     transition: all 300ms ease-in-out;
 }
 
-.container span::before, .container__thegame span:before {
+.container__thegame span {
+    font-size: 60pt;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.container span::before, .container__thegame span::before {
     content: var(--l);
     position: absolute;
     transform: scale(1.1);
@@ -47,23 +55,23 @@ body {
     filter: contrast(250%);
 }
 
-.container span:nth-child(1) {
+.container span:nth-child(1), .container__thegame span:nth-child(1) {
     color: #00bef8;
 }
 
-.container span:nth-child(2) {
+.container span:nth-child(2), .container__thegame span:nth-child(2) {
     color: #ff0697;
 }
 
-.container span:nth-child(3) {
+.container span:nth-child(3), .container__thegame span:nth-child(3) {
     color: #ff4d00;
 }
 
-.container span:nth-child(4) {
+.container span:nth-child(4), .container__thegame span:nth-child(4) {
     color: #ffe600;
 }
 
-.container span:nth-child(5) {
+.container span:nth-child(5), .container__thegame span:nth-child(5) {
     color: #bb00ff;
 }
 
