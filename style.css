@@ -83,13 +83,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    margin-top: 70px;
+    font-size: 1.3rem;
 }
 
 h4 {
@@ -109,7 +104,7 @@ h4 {
 .section__icons span {
     padding: 80px;
     font-size: 40px;
-    border: 7px rgba(30, 137, 187, 0.705) solid;
+    border: 7px rgba(0, 0, 0, 0.705) solid;
     border-radius: 50%;
     margin: 0px 15px 0px 15px;
 }
@@ -117,4 +112,37 @@ h4 {
 .section__icons span:hover {
     color: rgb(0, 194, 253);
     border: 7px rgb(0, 194, 253) solid;
+}
+
+.choose__text {
+    color: rgb(255, 219, 13);
+    font-size: 1.5rem;
+}
+
+.divConfirmButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.confirmButton {
+    width: 130px;
+    height: 80px;
+    background: #46ec40;
+    display: none;
+}
+
+.confirmButton:hover {
+    background: rgb(3, 163, 3);
+}
+
+.optionSelected {
+    color: rgb(75, 255, 51) !important;
+    border: 7px rgba(40, 255, 50, 0.705) solid !important;
+}
+
+.showButton {
+    display: inline;
 }
