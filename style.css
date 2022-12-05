@@ -83,15 +83,32 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
     font-size: 1.3rem;
+    cursor: default;
+}
+
+.divCounterReset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterReset {
+    margin-top: 10px;
+    background: #f3fc7d;
+    padding: 3px 5px;
+}
+
+.counterReset:hover {
+    background: #b6bd5f;
 }
 
 h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .section__icons {
@@ -138,9 +155,20 @@ h4 {
     background: rgb(3, 163, 3);
 }
 
+
 .optionSelected {
     color: rgb(75, 255, 51) !important;
     border: 7px rgba(40, 255, 50, 0.705) solid !important;
+}
+
+.pcSelected {
+    color: rgb(255, 51, 51) !important;
+    border: 7px rgb(255, 51, 51) solid !important;
+}
+
+.bothSelected {
+    color: rgb(0, 194, 253) !important;
+    border: 7px rgb(0, 194, 253) solid !important;
 }
 
 .showButton {
