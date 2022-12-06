@@ -136,6 +136,33 @@ h4 {
     font-size: 1.5rem;
 }
 
+.formCharacters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.textCharacters {
+    margin-bottom: 10px;
+    color: rgb(255, 219, 13);
+}
+
+.chooseCharacters {
+    height: 30px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.pj1 {
+    background-image: url(./media/Personaje.jpg);
+}
+
 .divConfirmButton {
     display: flex;
     justify-content: center;

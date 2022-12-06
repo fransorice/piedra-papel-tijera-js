@@ -57,12 +57,25 @@
         <div><span class="fa-regular fa-hand-back-fist rock-op"></span></div>
         <div><span class="fa-regular fa-hand paper-op"></i></span></div>
         <div><span class="fa-regular fa-hand-scissors scissors-op"></i></div>
-    </section>
-    <div class="divConfirmButton">
-        <button class="confirmButton">Confirmar</button>
-    </div>
+        </section>
+        <div class="divConfirmButton">
+            <button class="confirmButton">Confirmar</button>
+        </div>
+    <form class="formCharacters">
+        <label for="characters" class="textCharacters">Elige un personaje: </label>
+        <select name="characters" id="characters" class="chooseCharacters">
+            <option value=""></option>
+            <option value="franco" class="franco">Franco</option>
+            <option value="eugenia" class="eugenia">Eugenia</option>
+            <option value="cristopher" class="cristopher">Cristopher</option>
+            <option value="violeta" class="violeta">Violeta</option>
+            <option value="ajno" class="ajno">Ajno</option>
+        </select>
+      </form>
+      <div class="resultado"></div>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./script.js"></script>
     <script src="./resetScore.js"></script>
+    <script src="./characters.js"></script>
 </body>
 </html>

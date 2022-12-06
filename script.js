@@ -64,15 +64,6 @@ function play(userOption) {
     switch(result) {
         case tie:
             alert(pcOption + "Empataste");
-            setTimeout(() => {
-                if (pcOption === 0) {
-                    rockOption.classList.add("bothSelected");
-                    rockOption.classList.remove("optionSelected");
-                } 
-            }, 2000);
-            setTimeout(() => {
-                rockOption.classList.remove("bothSelected");
-            }, 2000);
             break;
         case win:
             alert(pcOption + "Ganaste");
