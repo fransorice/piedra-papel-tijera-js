@@ -1,0 +1,20 @@
+[{
+    "nombre": "",
+    "edad": "0",
+    "img": ""
+},
+{
+    "nombre": "Franco",
+    "edad": 21,
+    "img": "./media/franco.png"
+},
+{
+    "nombre": "Eugenia",
+    "edad": 20,
+    "img": "./media/eugenia.png"
+},
+{
+    "nombre": "Cristopher",
+    "edad": 10,
+    "img": "./media/cristopher.png"
+}]

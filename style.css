@@ -126,6 +126,15 @@ h4 {
     margin: 0px 15px 0px 15px;
 }
 
+.resultGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    color: #1289eb;
+    margin-top: 70px;
+}
+
 .section__icons span:hover {
     color: rgb(0, 194, 253);
     border: 7px rgb(0, 194, 253) solid;
@@ -141,7 +150,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 
 .textCharacters {
@@ -163,12 +172,23 @@ h4 {
     background-image: url(./media/Personaje.jpg);
 }
 
+.charactersInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.charactersInfo h3 {
+    margin-left: 20px;
+    color: #1289eb;
+}
+
 .divConfirmButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px 0px;
 }
 
 .confirmButton {

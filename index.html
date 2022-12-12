@@ -52,6 +52,7 @@
         <div class="divCounterReset">
             <button class="counterReset">Reiniciar</button>
         </div>
+        <div class="resultGame"></div>
     <h4 class="choose__text">Elige una opcion:</h4>
     <section class="section__icons">
         <div><span class="fa-regular fa-hand-back-fist rock-op"></span></div>
@@ -64,18 +65,12 @@
     <form class="formCharacters">
         <label for="characters" class="textCharacters">Elige un personaje: </label>
         <select name="characters" id="characters" class="chooseCharacters">
-            <option value=""></option>
-            <option value="franco" class="franco">Franco</option>
-            <option value="eugenia" class="eugenia">Eugenia</option>
-            <option value="cristopher" class="cristopher">Cristopher</option>
-            <option value="violeta" class="violeta">Violeta</option>
-            <option value="ajno" class="ajno">Ajno</option>
         </select>
       </form>
-      <div class="resultado"></div>
+      <div id="resultado"></div>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./script.js"></script>
     <script src="./resetScore.js"></script>
-    <script src="./characters.js"></script>
+    <script src="./api.js"></script>
 </body>
 </html>
