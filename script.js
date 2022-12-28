@@ -75,7 +75,7 @@ function play(userOption) {
     const result = calcResult(userOption, pcOption);
     switch(result) {
         case tie:
-            resultGame.innerHTML = `¡El resultado fue un empate!`
+            resultGame.innerHTML = `¡Han empatado!`
             setTimeout(()=> {
             resultGame.innerHTML = ``
             }, 3000);

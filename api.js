@@ -16,16 +16,16 @@ callApi.then((response) => {
                 re1.innerHTML = `<div class="charactersInfo"></div>`;
                 break;
             case 'Franco':
-                re1.innerHTML = `<div class="charactersInfo"><img src=${item2[1]}></img><h3>Nombre: ${item[1]}</h3>
-                                <h3>Edad: ${item1[1]}</h3></div>`;
+                re1.innerHTML = `<div class="charactersInfo"><img src=${item2[1]}></img><div class="charactersNameAndAge"><h3>Nombre: ${item[1]}</h3>
+                                <h3>Edad: ${item1[1]}</h3></div></div>`;
                 break;
             case 'Eugenia':
-                re1.innerHTML = `<div class="charactersInfo"><img src=${item2[2]}></img><h3>Nombre: ${item[2]}</h3>
-                                <h3>Edad: ${item1[2]}</h3></div>`;
+                re1.innerHTML = `<div class="charactersInfo"><img src=${item2[2]}></img><div class="charactersNameAndAge"><h3>Nombre: ${item[2]}</h3>
+                                <h3>Edad: ${item1[2]}</h3></div></div>`;
                 break;
             case 'Cristopher':
-                re1.innerHTML = `<div class="charactersInfo"><img src=${item2[3]}></img><h3>Nombre: ${item[3]}</h3>
-                                <h3>Edad: ${item1[3]}</h3></div>`;
+                re1.innerHTML = `<div class="charactersInfo"><img src=${item2[3]}></img><div class="charactersNameAndAge"><h3>Nombre: ${item[3]}</h3>
+                                <h3>Edad: ${item1[3]}</h3></div></div>`;
                 break;
         }
     });

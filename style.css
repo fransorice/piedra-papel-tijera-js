@@ -162,12 +162,6 @@ h4 {
     height: 30px;
 }
 
-.resultado {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0px;
-}
-
 .pj1 {
     background-image: url(./media/Personaje.jpg);
 }
@@ -220,4 +214,69 @@ h4 {
 
 .showButton {
     display: inline;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.arrowContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-arrow-down {
+    color: rgb(252, 255, 51);
+    margin-right: 30px;
+    opacity: 0.28;
+    display: none !important;
+}
+
+.charactersNameAndAge {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1120px) {
+    .divContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-arrow-down {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .fa-arrow-down {
+        display: none !important;
+    }
+    .section__icons {
+        flex-direction:  column;
+    }
+    .charactersNameAndAge {
+        display: flex;
+        flex-direction: column;
+    }
+    .charactersNameAndAge h3 {
+        margin-bottom: 20px;
+    }
+    .container span {
+        font-size: 50pt;
+    }
+    .container__thegame span {
+        font-size: 50pt;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .container span {
+        font-size: 40pt;
+    }
+    .container__thegame span {
+        font-size: 40pt;
+    }
 }
